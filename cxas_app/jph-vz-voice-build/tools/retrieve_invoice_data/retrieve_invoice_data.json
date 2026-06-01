@@ -1,0 +1,10 @@
+{
+  "name": "retrieve_invoice_data",
+  "pythonFunction": {
+    "name": "retrieve_invoice_data",
+    "pythonCode": "tools/retrieve_invoice_data/python_function/python_code.py",
+    "description": "Queries the billing database using the customer ID to fetch monthly invoice summaries and variance itemizations."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "retrieve_invoice_data"
+}

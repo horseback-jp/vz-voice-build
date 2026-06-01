@@ -1,0 +1,10 @@
+{
+  "name": "escalate_to_human",
+  "pythonFunction": {
+    "name": "escalate_to_human",
+    "pythonCode": "tools/escalate_to_human/python_function/python_code.py",
+    "description": "Compiles verified customer context metadata summaries and triggers a warm-transfer escalation to live support advisor queues."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "escalate_to_human"
+}

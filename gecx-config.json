@@ -1,0 +1,10 @@
+{
+  "gcp_project_id": "ces-demo-emea",
+  "location": "us",
+  "app_name": "jph-vz-voice-build",
+  "deployed_app_id": "c118ecd7-854e-4918-b680-6b9aaad29358",
+  "app_dir": "cxas_app/",
+  "model": "gemini-3.1-flash-live",
+  "modality": "audio",
+  "default_channel": "audio"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "get_order_status",
+  "pythonFunction": {
+    "name": "get_order_status",
+    "pythonCode": "tools/get_order_status/python_function/python_code.py",
+    "description": "Queries the logistics system using the customer ID to fetch track-and-trace delivery pipelines and shipping statuses."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "get_order_status"
+}

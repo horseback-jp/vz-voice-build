@@ -1,0 +1,10 @@
+{
+  "name": "schedule_mechanic_visit",
+  "pythonFunction": {
+    "name": "schedule_mechanic_visit",
+    "pythonCode": "tools/schedule_mechanic_visit/python_function/python_code.py",
+    "description": "Reserves physical line repair mechanic visits in the broadband scheduling system using preferred appointment slot parameters."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "schedule_mechanic_visit"
+}

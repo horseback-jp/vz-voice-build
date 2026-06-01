@@ -1,0 +1,10 @@
+{
+  "name": "recognize_customer",
+  "pythonFunction": {
+    "name": "recognize_customer",
+    "pythonCode": "tools/recognize_customer/python_function/python_code.py",
+    "description": "Performs automatic caller-ID database lookup using the incoming phone number to fetch customer name and account status."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "recognize_customer"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wifi_technical_support_spoke",
+  "displayName": "wifi_technical_support_spoke",
+  "instruction": "agents/wifi_technical_support_spoke/instruction.txt",
+  "tools": [
+    "get_modem_diagnostics",
+    "schedule_mechanic_visit",
+    "escalate_to_human",
+    "end_session"
+  ]
+}

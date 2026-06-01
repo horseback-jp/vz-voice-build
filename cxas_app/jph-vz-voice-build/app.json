@@ -1,0 +1,65 @@
+{
+  "name": "c118ecd7-854e-4918-b680-6b9aaad29358",
+  "displayName": "jph-vz-voice-build",
+  "rootAgent": "Root_agent",
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "variableDeclarations": [
+    {
+      "name": "recognised_customer",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Serialized JSON containing recognized customer profile details from caller ID."
+    },
+    {
+      "name": "billing_variance",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Itemized billing variance and explanation metadata."
+    },
+    {
+      "name": "order_tracking_status",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Track & trace shipping status for ordered items."
+    },
+    {
+      "name": "telemetry_diagnostics",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Audited telemetry modem packet loss and network diagnostic status."
+    },
+    {
+      "name": "mechanic_visit_status",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Confirmed appointment slots for mechanical broadband dispatch."
+    },
+    {
+      "name": "escalation_context",
+      "schema": {
+        "type": "STRING"
+      },
+      "description": "Structured warm-transfer summary context compiled for live advisor escalations."
+    }
+  ],
+  "tools": [
+    "recognize_customer",
+    "retrieve_invoice_data",
+    "get_order_status",
+    "get_modem_diagnostics",
+    "schedule_mechanic_visit",
+    "escalate_to_human"
+  ],
+  "timeZoneSettings": {
+    "timeZone": "Europe/Amsterdam"
+  }
+}

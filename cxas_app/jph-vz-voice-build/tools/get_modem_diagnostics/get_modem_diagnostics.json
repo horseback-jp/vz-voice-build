@@ -1,0 +1,10 @@
+{
+  "name": "get_modem_diagnostics",
+  "pythonFunction": {
+    "name": "get_modem_diagnostics",
+    "pythonCode": "tools/get_modem_diagnostics/python_function/python_code.py",
+    "description": "Triggers real-time modem network audits to fetch signal strength, connection status, packet loss, and area outage parameters."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "get_modem_diagnostics"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "billing_and_order_spoke",
+  "displayName": "billing_and_order_spoke",
+  "instruction": "agents/billing_and_order_spoke/instruction.txt",
+  "tools": [
+    "retrieve_invoice_data",
+    "get_order_status",
+    "end_session"
+  ]
+}
