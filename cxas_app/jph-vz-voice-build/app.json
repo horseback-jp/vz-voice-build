@@ -2,6 +2,28 @@
   "name": "jph-vz-voice-build",
   "displayName": "jph-vz-voice-build",
   "rootAgent": "root_agent",
+  "globalInstruction": "global_instruction.txt",
+  "modelSettings": {
+    "model": "gemini-3.1-flash-live"
+  },
+  "languageSettings": {
+    "defaultLanguageCode": "en-GB",
+    "supportedLanguageCodes": [
+      "nl-NL"
+    ]
+  },
+  "audioProcessingConfig": {
+    "synthesizeSpeechConfigs": {
+      "en-GB": {
+        "voice": "en-GB-Chirp3-HD-Zephyr",
+        "speakingRate": 1.0
+      },
+      "nl-NL": {
+        "voice": "nl-NL-Chirp3-HD-Zephyr",
+        "speakingRate": 1.0
+      }
+    }
+  },
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
