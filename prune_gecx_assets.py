@@ -65,8 +65,19 @@ def fetch_local_and_live_assets(app_name, app_dir):
     local_agent_ids = set()
     if os.path.exists(local_agents_dir):
         for item in os.listdir(local_agents_dir):
-            if os.path.isdir(os.path.join(local_agents_dir, item)):
+            agent_folder_path = os.path.join(local_agents_dir, item)
+            if os.path.isdir(agent_folder_path):
                 local_agent_ids.add(item)
+                # Also read agent JSON to get the declared system name/UUID
+                agent_json_path = os.path.join(agent_folder_path, f"{item}.json")
+                if os.path.exists(agent_json_path):
+                    try:
+                        with open(agent_json_path, "r") as f:
+                            agent_data = json.load(f)
+                            if "name" in agent_data:
+                                local_agent_ids.add(agent_data["name"])
+                    except Exception as e:
+                        print(f"[WARNING] Could not parse local agent JSON at {agent_json_path}: {e}")
 
     # Scan local variable declarations inside app.json
     local_variable_names = set()
