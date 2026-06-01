@@ -1,0 +1,13 @@
+{
+  "name": "root_agent",
+  "displayName": "root_agent",
+  "instruction": "agents/root_agent/instruction.txt",
+  "tools": [
+    "recognize_customer",
+    "end_session"
+  ],
+  "childAgents": [
+    "billing_and_order_spoke",
+    "wifi_technical_support_spoke"
+  ]
+}

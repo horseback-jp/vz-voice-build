@@ -44,12 +44,12 @@ jobs:
       - name: Push Agent to Production GECX App
         run: |
           cxas push --app-dir cxas_app/jph-vz-voice-build \
-            --to projects/ces-demo-emea/locations/us/apps/c118ecd7-854e-4918-b680-6b9aaad29358 \
+            --to projects/ces-demo-emea/locations/us/apps/jph-vz-voice-build \
             --project-id ces-demo-emea --location us
 
       - name: GECX Server Synchronization Audit
         run: |
           python prune_gecx_assets.py \
             --mode=audit \
-            --app-name=projects/ces-demo-emea/locations/us/apps/c118ecd7-854e-4918-b680-6b9aaad29358 \
+            --app-name=projects/ces-demo-emea/locations/us/apps/jph-vz-voice-build \
             --app-dir=cxas_app/jph-vz-voice-build
