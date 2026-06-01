@@ -1,7 +1,7 @@
 {
   "name": "c118ecd7-854e-4918-b680-6b9aaad29358",
   "displayName": "jph-vz-voice-build",
-  "rootAgent": "Root_agent",
+  "rootAgent": "facfc5f0-80a6-4692-a4c5-b6aa07e4b738",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"

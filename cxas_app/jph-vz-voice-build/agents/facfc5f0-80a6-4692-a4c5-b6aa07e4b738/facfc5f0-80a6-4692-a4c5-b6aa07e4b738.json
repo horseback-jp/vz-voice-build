@@ -1,7 +1,7 @@
 {
   "name": "facfc5f0-80a6-4692-a4c5-b6aa07e4b738",
   "displayName": "Root agent",
-  "instruction": "agents/Root_agent/instruction.txt",
+  "instruction": "agents/facfc5f0-80a6-4692-a4c5-b6aa07e4b738/instruction.txt",
   "tools": [
     "recognize_customer",
     "end_session"
